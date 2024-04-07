@@ -375,7 +375,7 @@ https://www.giac.org/paper/gsec/4320/google-hacking-tool-security-professional/1
 - Mesures a aplicar:
     - **HTTPS**: Permet que les connexions vagin per un canal segur encriptat, i tota web que demani username i password ha d'estar protegida amb SSL i TLS. S'ha de protegir TOT.
     - **SSL i TLS**.
-    !["Proces_SSL/TLS"](/Captura%20de%20pantalla%20de%202024-04-06%2018-46-32.png)
+    !["Proces_SSL/TLS"](/Captura de pantalla de 2024-04-06%2018-46-32.png)
     - **Cookies "Secure"**: flag que fa que les cookies només s'enviïn per HTTPS, de forma que si no està actiu aquest flag, no s'enviarà la nova cookie a l'usuari.
     - **Cookies "HttpOnly"**: Permet que les cookies no es vegin en Javascript i evita que un atacant pugui accedir a la cookie mitjançant un script maliciós, i modificar-la. 
     - **Session Fixation**: Es produeix quan hi ha alguna forma de passar una sessió començada a un altre usuari via URL, i la sessió no es regenera quan fem login. Això permet a l'atacant robar sessions autenticades.
@@ -456,20 +456,20 @@ Vulnerabilitat la qual es podrà **accedir a informació relacionada amb el nost
 ---
 
 ### Contramesures
-    - **Proteccions declaratives:**
-        - **URLs protegides** i rols dels usuaris el **més aillats possible** de la resta del programa.
-    - En mans del **servidor**:
-        - La **gestió de les sessions**.
-        - La **comparació del login** un cop donada la llista d'usuaris.
-        - La **redirecció cap a la pantalla de login**.
-        - **API genèrica** per saber qui ha accedit per codi.
-    - **Codi en el costat del servidor autenticat o API en servidor**, on l'atacant **no pot modificar** la validació del control d'accés o les metadades
-    - Implementar els **mecanismes de control d’accés una vegada i reutilitzar-los** a tota l’aplicació.
-    - Desactivar la **llista de directoris del servidor web**.
-    - Assegurar-se que les metadades dels fitxers i els fitxers de còpia de seguretat **no estan presents a les arrels del web**.
-    - El **log d'accés** ha d'avisar als admins.
-    - L'**API de taxa limitada**.
-    - Després de tancar la sessió, els tokens o cookies generats haurien de ser invalidats al servidor.
+- **Proteccions declaratives:**
+    - **URLs protegides** i rols dels usuaris el **més aillats possible** de la resta del programa.
+- En mans del **servidor**:
+    - La **gestió de les sessions**.
+    - La **comparació del login** un cop donada la llista d'usuaris.
+    - La **redirecció cap a la pantalla de login**.
+    - **API genèrica** per saber qui ha accedit per codi.
+- **Codi en el costat del servidor autenticat o API en servidor**, on l'atacant **no pot modificar** la validació del control d'accés o les metadades
+- Implementar els **mecanismes de control d’accés una vegada i reutilitzar-los** a tota l’aplicació.
+- Desactivar la **llista de directoris del servidor web**.
+- Assegurar-se que les metadades dels fitxers i els fitxers de còpia de seguretat **no estan presents a les arrels del web**.
+- El **log d'accés** ha d'avisar als admins.
+- L'**API de taxa limitada**.
+- Després de tancar la sessió, els tokens o cookies generats haurien de ser invalidats al servidor.
 
 ## Cross Site Scripting
 
