@@ -375,7 +375,7 @@ https://www.giac.org/paper/gsec/4320/google-hacking-tool-security-professional/1
 - Mesures a aplicar:
     - **HTTPS**: Permet que les connexions vagin per un canal segur encriptat, i tota web que demani username i password ha d'estar protegida amb SSL i TLS. S'ha de protegir TOT.
     - **SSL i TLS**.
-    !["Proces_SSL/TLS"](/Captura de pantalla de 2024-04-06 2018-46-32.png)
+    ![Proces_SSL/TLS](./Captura_de_pantalla_de_2024-04-06_18-46-32.png)
     - **Cookies "Secure"**: flag que fa que les cookies només s'enviïn per HTTPS, de forma que si no està actiu aquest flag, no s'enviarà la nova cookie a l'usuari.
     - **Cookies "HttpOnly"**: Permet que les cookies no es vegin en Javascript i evita que un atacant pugui accedir a la cookie mitjançant un script maliciós, i modificar-la. 
     - **Session Fixation**: Es produeix quan hi ha alguna forma de passar una sessió començada a un altre usuari via URL, i la sessió no es regenera quan fem login. Això permet a l'atacant robar sessions autenticades.
@@ -484,8 +484,8 @@ Vulnerabilitat la qual es podrà **accedir a informació relacionada amb el nost
 
 - 3 formes de XSS
     - **Reflectit:**• L'aplicació o API inclou valors invàlids o no escapats de l'entradade l'usuari com a part de la sortida HTML.
-    - **Permanent, resistent o emmagatzemat:**L'aplicació o API guarda valors d'entrada d'un usuari no tractats que poden ser vistos més tard per un altre usuari o l'administrador.
-    - **Dom XSS:**Document Object Model. Interfície de programació d’aplicacions (API) que permet llegir, accedir i modificar el frontend del codi font d’una aplicació web.
+    - **Permanent, resistent o emmagatzemat:** L'aplicació o API guarda valors d'entrada d'un usuari no tractats que poden ser vistos més tard per un altre usuari o l'administrador.
+    - **Dom XSS:** Document Object Model. Interfície de programació d’aplicacions (API) que permet llegir, accedir i modificar el frontend del codi font d’una aplicació web.
 
 ### Contramesures
 
